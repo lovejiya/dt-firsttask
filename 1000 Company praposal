@@ -1,0 +1,26 @@
+1. Initial Universe
+
+[5-7 days]
+ use MCA filings
+ Tofler [websites such as Tofler]
+ Linkedin [Using tags]
+ databases such as https://biopharmguy.com/links/company-by-location-india.php
+
+[Output -> 20 -30k company database]
+
+2. Filtering Automated
+ [5-6 days]
+ buildin a filtering tool using LLM's such as Claude, with hyper tuning such as thresholds to make it generalized but reduce manual search. Threshholds like revenue band, industry type etc
+ Tools -> Python, LLMs
+[Output -> 2-3k companies]
+
+3. Scoring Automated
+[6-7 days]
+  Using given scoring like C1- C8 build a classificatin, scoring tool through Claude that will thourougly go through the reduced database. Make sure that it is saving only companies that pass.
+[Output -> 1-1.2k companies]
+
+4. Manual Rechecking
+[7-10 days]
+  Recheck each of the 1000 company profiles to make sure there is no inconsistency. If it reduces to less than 1000, add the borderline companies to the database.
+  [Output -> 1k companies]
+ 
